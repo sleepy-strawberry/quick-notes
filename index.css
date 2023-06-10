@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: "Signika Negative", sans-serif;
+  min-width: 400px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #090600;
+  margin-bottom: 4px;
+}
+
+button {
+  background: #090600;
+  color: #ff61ba;
+  padding: 10px 20px;
+  border: 1px solid #090600;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#delete-btn {
+  background-image: url(recycle-bin.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  color: #090600;
+  height: auto;
+  width: 30px;
+  height: 16px;
+  background-color: transparent;
+  border: none;
+  box-sizing: content-box;
+  position: absolute;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 20px;
+}
+
+li {
+  margin-top: 5px;
+  color: #ff61ba;
+  list-style: square;
+}
+
+a {
+  color: #67b758;
+  text-decoration: none;
+  font-size: 16px;
+}
